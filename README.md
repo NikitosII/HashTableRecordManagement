@@ -39,17 +39,21 @@
     ```sh
     g++ -o HashTableRecordManagement HashTableRecordManagement.cpp HashM.cpp Node.cpp
     ```
-4. Запустите программу:
+4. Запустите программу, указав путь к файлу с данными:
     ```sh
-    ./HashTableRecordManagement text.txt
+    ./HashTableRecordManagement <путь к файлу>
     ```
-
+    Например:
+    ```sh
+    ./HashTableRecordManagement data.txt
+    ```
+    
 ### Пример использования
 
 1. Скомпилируйте и запустите программу:
     ```sh
     g++ -o HashTableRecordManagement HashTableRecordManagement.cpp HashM.cpp Node.cpp
-    ./HashTableRecordManagement text.txt
+    ./HashTableRecordManagement data.txt
     ```
 2. Следуйте инструкциям в меню:
     ```
